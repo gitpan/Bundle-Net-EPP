@@ -1,7 +1,7 @@
-# $Id: EPP.pm,v 1.2 2008/01/04 11:11:48 gavin Exp $
+# $Id: EPP.pm,v 1.4 2008/01/09 17:58:49 gavin Exp $
 package Bundle::Net::EPP;
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 __END__
 
@@ -18,11 +18,17 @@ C<cpan -i Bundle::Net::EPP>
 =head1 CONTENTS
 
 IO::Socket::SSL		- Nearly transparent SSL encapsulation for IO::Socket::INET
+
 XML::LibXML		- Perl Binding for libxml2
+
 Net::EPP::Client	- a client library for the TCP transport for EPP, the Extensible Provisioning Protocol
+
 Net::EPP::Frame		- An EPP XML frame system built on top of XML::LibXML.
+
 Net::EPP::Proxy		- a proxy server for the EPP protocol
+
 Net::EPP::ResponseCodes	- a module to export some constants that correspond to EPP response codes
+
 Net::EPP::Simple	- a simple EPP client interface for the most common jobs
 
 =head1 DESCRIPTION
